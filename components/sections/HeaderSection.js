@@ -1,3 +1,10 @@
 export default function HeaderSection() {
-  return <div>Hi this is a header section</div>
+  return (
+    <div
+      style={{
+        background: `url(/img/headline.jpg) no-repeat center center / cover`,
+        minHeight: '700px',
+      }}
+    ></div>
+  )
 }

@@ -1,4 +1,5 @@
 import HeaderSection from '@/components/sections/HeaderSection'
+import WorkoutScetion from '@/components/sections/WorkoutSection'
 import Layout from '@/layout/Layout'
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <Layout title="Home">
       {/* Header Section Example */}
       <HeaderSection />
+      <WorkoutScetion />
     </Layout>
   )
 }
