@@ -16,7 +16,6 @@ export default function WorkoutScetion() {
           sagittis ut. Ultrices gravida mi semper vitae. Tincidunt facilisi
         </WorkoutCart>
       </div>
-      WorkoutSection
     </div>
   )
 }
