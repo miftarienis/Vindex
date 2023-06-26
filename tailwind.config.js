@@ -16,7 +16,11 @@ module.exports = {
       colors: {
         gray: {
           ...config.colors.gray,
-          200: '#F4F4F4',
+          200: '#E4E4E4',
+        },
+        green: {
+          ...config.colors.green,
+          400: '#53EF75',
         },
       },
     },
