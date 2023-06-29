@@ -1,6 +1,7 @@
 import HeaderSection from '@/components/sections/HeaderSection'
 import TeamSection from '@/components/sections/TeamSection'
 import WorkoutScetion from '@/components/sections/WorkoutSection'
+import Slider from '@/components/Slider'
 import Layout from '@/layout/Layout'
 
 export default function Home() {
@@ -12,6 +13,8 @@ export default function Home() {
       <WorkoutScetion />
       {/* Team Section */}
       <TeamSection />
+      {/* Images Gallery */}
+      <Slider />
     </Layout>
   )
 }
