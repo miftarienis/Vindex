@@ -6,10 +6,6 @@ module.exports = {
   content: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
     extend: {
-      container: {
-        center: true,
-        padding: '1rem',
-      },
       fontFamily: {
         sans: ['var(--font-poppins)', ...config.fontFamily.sans],
       },
@@ -24,6 +20,9 @@ module.exports = {
         },
       },
     },
+  },
+  corePlugins: {
+    container: false,
   },
   plugins: [
     // eslint-disable-next-line no-undef
