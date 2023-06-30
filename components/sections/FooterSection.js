@@ -13,12 +13,6 @@ export default function FooterSection() {
               Ready to reach <br />
               <span className="text-green-500">your</span> goals?
             </p>
-            <a
-              href="mailto:vindex@gmail.com"
-              className="block mt-10 text-white text-xl font-semibold uppercase"
-            >
-              vindex@gmail.com
-            </a>
           </div>
           <div className="col-6 text-end">
             <div className="inline-flex items-center">
@@ -29,20 +23,32 @@ export default function FooterSection() {
                 <SVG src="/svg/mail.svg" className="ml-5 fill-current w-11 h-11" />
               </a>
             </div>
-            <p className="block mt-10 text-white text-xl font-semibold uppercase">
+          </div>
+        </div>
+        <div className="row mt-10">
+          <div className="md:col-6">
+            <a
+              href="mailto:vindex@gmail.com"
+              className="block mt-10 text-white md:text-xl text-lg font-semibold uppercase"
+            >
+              vindex@gmail.com
+            </a>
+          </div>
+          <div className="md:col-6 md:text-end text-start">
+            <p className="block md:mt-10 mt-0 text-white md:text-xl text-lg font-semibold uppercase">
               ST. 69 , Dallas ,TX
             </p>
           </div>
         </div>
         <div className="flex flex-row items-center justify-center">
           <div className="h-px w-full bg-neutral-600"></div>
-          <div className="px-7 md:p-12">
+          <div className="md:px-7 p-12 ">
             <Image
-              src="/img/logo.png"
+              src="/img/logo-2.png"
               width={218}
               height={123}
               alt="logo"
-              className="w-full h-auto"
+              className="w-60 h-auto"
             />
           </div>
           <div className="h-px w-full bg-neutral-600"></div>

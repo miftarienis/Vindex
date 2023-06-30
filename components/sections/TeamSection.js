@@ -6,7 +6,7 @@ export default function TeamSection() {
       <div className="container">
         <div className="flex flex-row justify-center">
           <div className="col-12 text-center">
-            <h1 className="inline-block mt-20 text-center uppercase text-6xl font-bold border-l-8 pl-7 border-green-500">
+            <h1 className="inline-block mt-20 text-center uppercase md:text-6xl text-3xl font-bold border-l-8 pl-7 border-green-500">
               Staff Members
             </h1>
           </div>

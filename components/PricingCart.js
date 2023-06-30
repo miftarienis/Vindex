@@ -1,7 +1,7 @@
 import SVG from 'react-inlinesvg'
 export default function PricingCart({ isGreen, pricing, time, desc, duration, array }) {
   return isGreen ? (
-    <div className="col-3 bg-green-500 rounded-2xl p-10 -mt-20">
+    <div className="lg:col-3 md:col-6 bg-green-500 rounded-2xl p-10 lg:-mt-20 mt-0">
       <p className="text-end font-bold uppercase">Most popular</p>
       <h2 className="mt-2 text-3xl font-semibold">
         $ {pricing} <span className="ml-2 text-base font-normal">/{time}</span>
@@ -18,7 +18,7 @@ export default function PricingCart({ isGreen, pricing, time, desc, duration, ar
       </ul>
     </div>
   ) : (
-    <div className="col-3 p-10">
+    <div className="lg:col-3 md:col-6 p-10">
       <h2 className="text-3xl font-semibold">
         $ {pricing} <span className="ml-2 text-base font-normal">/{time}</span>
       </h2>
