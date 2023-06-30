@@ -1,6 +1,7 @@
 import HeaderSection from '@/components/sections/HeaderSection'
 import MerchandiseSection from '@/components/sections/MerchandiseSection'
 import PricingSection from '@/components/sections/PricingSection'
+import ServiceSection from '@/components/sections/ServiceSection'
 import TeamSection from '@/components/sections/TeamSection'
 import WorkoutScetion from '@/components/sections/WorkoutSection'
 import Slider from '@/components/Slider'
@@ -11,6 +12,8 @@ export default function Home() {
     <Layout title="Home">
       {/* Header Section Example */}
       <HeaderSection />
+      {/* Service Section */}
+      <ServiceSection />
       {/* Workout Section  */}
       <WorkoutScetion />
       {/* Team Section */}
