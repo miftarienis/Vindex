@@ -3,8 +3,9 @@ export default function HeaderSection() {
     <div
       style={{
         background: `url(/img/headline.jpg) no-repeat center center / cover`,
-        minHeight: '700px',
+        height: '700px',
       }}
+      className="sm:h-80"
     ></div>
   )
 }

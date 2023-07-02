@@ -32,7 +32,9 @@ export default function Navigation() {
 
   return (
     <div
-      className={`fixed w-full top-0 left-0 ${color ? 'bg-gray-200' : 'bg-transparent'}`}
+      className={`fixed w-full top-0 left-0 ${
+        color ? 'bg-gray-200' : 'bg-gray-200 md:bg-transparent'
+      }`}
       style={{ zIndex: '9999' }}
     >
       <div className="container">
@@ -53,22 +55,22 @@ export default function Navigation() {
           </div>
 
           <div
-            className={`md:col-8 md:flex justify-center md:justify-end bg-white md:bg-transparent ${
-              menu ? ' flex' : ' hidden'
-            }`}
+            className={`md:col-8 md:flex justify-center md:justify-end ${
+              color ? 'bg-gray-200' : 'bg-gray-200 md:bg-transparent'
+            } ${menu ? ' flex' : ' hidden'}`}
           >
             <ul className="flex w-full p-5 flex-col md:w-auto md:p-0 md:flex-row items-center">
-              <NavItem className={`${color ? 'text-black ' : 'text-white md:text-white'}`} href="/">
+              <NavItem className={`${color ? 'text-black ' : 'text-black md:text-white'}`} href="/">
                 Gallery
               </NavItem>
               <NavItem
-                className={`${color ? 'text-black ' : 'text-white md:text-white'}`}
+                className={`${color ? 'text-black ' : 'text-black md:text-white'}`}
                 href="/about"
               >
                 Pricing
               </NavItem>
               <NavItem
-                className={`${color ? 'text-black ' : 'text-white md:text-white'}`}
+                className={`${color ? 'text-black ' : 'text-black md:text-white'}`}
                 href="/contact"
               >
                 Contact
