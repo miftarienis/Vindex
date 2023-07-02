@@ -1,3 +1,4 @@
+import BookingSection from '@/components/sections/BookingSection'
 import HeaderSection from '@/components/sections/HeaderSection'
 import MerchandiseSection from '@/components/sections/MerchandiseSection'
 import PricingSection from '@/components/sections/PricingSection'
@@ -22,6 +23,8 @@ export default function Home() {
       <Slider />
       {/* Pricing Section  */}
       <PricingSection />
+      {/* Booking Section  */}
+      <BookingSection />
       {/* Merchandise Section */}
       <MerchandiseSection />
     </Layout>
