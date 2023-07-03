@@ -60,18 +60,21 @@ export default function Navigation() {
             } ${menu ? ' flex' : ' hidden'}`}
           >
             <ul className="flex w-full p-5 flex-col md:w-auto md:p-0 md:flex-row items-center">
-              <NavItem className={`${color ? 'text-black ' : 'text-black md:text-white'}`} href="/">
+              <NavItem
+                className={`${color ? 'text-black ' : 'text-black md:text-white'}`}
+                href="/#gallery"
+              >
                 Gallery
               </NavItem>
               <NavItem
                 className={`${color ? 'text-black ' : 'text-black md:text-white'}`}
-                href="/about"
+                href="/#pricing"
               >
                 Pricing
               </NavItem>
               <NavItem
                 className={`${color ? 'text-black ' : 'text-black md:text-white'}`}
-                href="/contact"
+                href="/#contact"
               >
                 Contact
               </NavItem>

@@ -2,11 +2,11 @@ import PricingCart from '../PricingCart'
 
 export default function PricingSection() {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-200" id="pricing">
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">
-            <h1 className="inline-block mt-20 text-center uppercase text-6xl font-bold border-l-8 pl-7 border-green-500">
+            <h1 className="inline-block mt-10 text-center uppercase text-6xl font-bold border-l-8 pl-7 border-green-500">
               Pricing
             </h1>
           </div>

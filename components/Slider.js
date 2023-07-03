@@ -13,7 +13,7 @@ export default function Slider() {
     },
   ]
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-200" id="gallery">
       <div className="container">
         <div className="row my-20">
           <div className="col-6 w-full h-auto">
