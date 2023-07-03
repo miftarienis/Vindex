@@ -2,7 +2,7 @@ import TeamCart from '../TeamCart'
 
 export default function TeamSection() {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-200" id="staffMembers">
       <div className="container">
         <div className="flex flex-row justify-center">
           <div className="col-12 text-center">
@@ -12,9 +12,9 @@ export default function TeamSection() {
           </div>
         </div>
         <div className="row my-20">
-          <TeamCart img="/img/team-1.png" name="Enis Miftari" />
-          <TeamCart img="/img/team-1.png" name="Enis Miftari" />
-          <TeamCart img="/img/team-1.png" name="Enis Miftari" />
+          <TeamCart img="/img/team-1.png" name="Enis Miftari" title="staff" />
+          <TeamCart img="/img/team-1.png" name="Enis Miftari" title="Personal trainer" />
+          <TeamCart img="/img/team-1.png" name="Enis Miftari" title="staff" />
         </div>
       </div>
     </div>
