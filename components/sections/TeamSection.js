@@ -11,10 +11,13 @@ export default function TeamSection() {
             </h1>
           </div>
         </div>
-        <div className="row my-20">
-          <TeamCart img="/img/team-1.png" name="Enis Miftari" title="staff" />
-          <TeamCart img="/img/team-1.png" name="Enis Miftari" title="Personal trainer" />
-          <TeamCart img="/img/team-1.png" name="Enis Miftari" title="staff" />
+        <div className="row justify-center my-20">
+          <TeamCart
+            img="/img/labinot-sylejmani.jpg"
+            name="Labinot Sylejmani"
+            title="Personal trainer"
+          />
+          <TeamCart img="/img/kezi-idrizi.jpeg" name="Kezi Idrzi" title="staff" />
         </div>
       </div>
     </div>
