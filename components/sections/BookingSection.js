@@ -16,7 +16,7 @@ export default function BookingSection() {
         <input type="hidden" name="Time" value={time} />
         <div className="row my-20">
           <div className="lg:col-8">
-            <h2 className="uppercase text-3xl lg:text-start text-center font-bold">
+            <h2 className="uppercase text-3xl lg:text-start text-center mb-5 lg:mb-0 font-bold">
               Choose a date
             </h2>
             <Calendar onChange={setDate} value={date} />
