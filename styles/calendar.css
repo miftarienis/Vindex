@@ -141,3 +141,8 @@
 .react-calendar--selectRange .react-calendar__tile--hover {
   background-color: #e6e6e6;
 }
+@media (max-width: 640px) {
+  .react-calendar__tile {
+    padding: 10px 21px;
+  }
+}

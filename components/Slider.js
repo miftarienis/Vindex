@@ -3,13 +3,43 @@ import ReactImageGallery from 'react-image-gallery'
 export default function Slider() {
   const images = [
     {
-      original: 'https://picsum.photos/id/1018/1000/600/',
+      original: '/img/1.jpg',
     },
     {
-      original: 'https://picsum.photos/id/1015/1000/600/',
+      original: '/img/2.jpg',
     },
     {
-      original: 'https://picsum.photos/id/1019/1000/600/',
+      original: '/img/3.jpg',
+    },
+    {
+      original: '/img/4.jpg',
+    },
+    {
+      original: '/img/5.jpg',
+    },
+    {
+      original: '/img/6.jpg',
+    },
+    {
+      original: '/img/7.jpg',
+    },
+    {
+      original: '/img/8.jpg',
+    },
+    {
+      original: '/img/9.jpg',
+    },
+    {
+      original: '/img/10.jpg',
+    },
+    {
+      original: '/img/11.jpg',
+    },
+    {
+      original: '/img/12.jpg',
+    },
+    {
+      original: '/img/13.jpg',
     },
   ]
   return (
