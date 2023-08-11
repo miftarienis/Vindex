@@ -34,7 +34,7 @@ export default function FooterSection() {
             </div>
             <div className="md:col-6 md:text-end text-start">
               <p className="block md:mt-10 mt-0 text-white md:text-xl text-lg font-semibold uppercase">
-                ST. 69 , Dallas ,TX
+                Brakja Gjinoski , 20 , Gostivar , R. North Macedonia
               </p>
             </div>
           </div>

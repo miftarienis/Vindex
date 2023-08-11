@@ -12,7 +12,13 @@ export default function MerchandiseSection() {
             </h1>
           </div>
           <div className="col-12 mt-10 mb-20  ">
-            <Image src="/img/merchandise-bg.png" width={1432} height={627} alt="merchandise-bg" />
+            <Image
+              src="/img/merchandise-bg.png"
+              width={1432}
+              height={627}
+              alt="merchandise-bg"
+              className="w-full h-auto"
+            />
           </div>
         </div>
       </div>

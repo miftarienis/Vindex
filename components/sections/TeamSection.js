@@ -16,6 +16,7 @@ export default function TeamSection() {
             img="/img/labinot-sylejmani.jpg"
             name="Labinot Sylejmani"
             title="Personal trainer"
+            button
           />
           <TeamCart img="/img/kezi-idrizi.jpeg" name="Kezi Idrzi" title="staff" />
         </div>

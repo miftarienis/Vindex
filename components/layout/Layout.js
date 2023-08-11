@@ -11,7 +11,7 @@ export default function Layout({ children, title = null }) {
   return (
     <>
       <Head>
-        <title>{title ? `${title} - Vindex` : 'Next Starter'}</title>
+        <title>{title ? `${title} - Vindex` : 'Vindex Gym'}</title>
       </Head>
       <div className={`font-sans antialiased flex flex-col ${dev ? 'debug-screens' : ''}`}>
         {/* Navigation here */}
