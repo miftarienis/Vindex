@@ -16,7 +16,7 @@ export default function WorkoutCart({ title, children, img, id, left }) {
           className="inline-block mt-3 px-10 py-3 bg-green-500 rounded-full uppercase"
           href="#calendar"
         >
-          Book
+          More
         </Link>
       </div>
     </div>
@@ -31,7 +31,7 @@ export default function WorkoutCart({ title, children, img, id, left }) {
           className="inline-block mt-3 px-10 py-3 bg-green-500 rounded-full uppercase"
           href="#calendar"
         >
-          Book
+          More
         </Link>
       </div>
       <div className="md:col-6 order-first md:order-none">
