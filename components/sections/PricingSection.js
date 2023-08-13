@@ -14,33 +14,32 @@ export default function PricingSection() {
         <div className="bg-white mt-20 p-10 rounded-2xl">
           <div className="row">
             <PricingCart
-              pricing="20"
+              pricing="1500"
               time="month"
-              desc="Intro"
+              desc="Men"
               duration="For One Month"
-              array={['All equipments', 'Chat with trainers', 'Optimize hashtags']}
+              array={['All equipments', 'Chat with trainers']}
             />
             <PricingCart
-              pricing="50"
-              time="month"
-              desc="Base"
+              pricing="4000"
+              time="months"
+              desc="Men"
               duration="For Three Months"
-              array={['All equipments', 'Chat with trainers', 'Optimize hashtags']}
+              array={['All equipments', 'Chat with trainers']}
             />
             <PricingCart
-              isGreen
-              pricing="100"
-              time="month"
-              desc="Pro"
+              pricing="7500"
+              time="months"
+              desc="Men"
               duration="For Six Months"
-              array={['All equipments', 'Chat with trainers', 'Optimize hashtags']}
+              array={['All equipments', 'Chat with trainers']}
             />
             <PricingCart
-              pricing="200"
-              time="year"
-              desc="Enterprise"
-              duration="For One Year"
-              array={['All equipments', 'Chat with trainers', 'Optimize hashtags']}
+              pricing="3000"
+              time="month"
+              desc="Diet Plan"
+              duration="For One Month"
+              array={['Diet Planning & Training', 'Chat with trainers']}
             />
           </div>
         </div>
