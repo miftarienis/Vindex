@@ -27,7 +27,7 @@ export default function Navigation2() {
               <Image src="/img/logo.png" width={220} height={123} alt="logo" />
             </Link>
           </div>
-          <div className="col-2 md:hidden block">
+          <div className="col-2 md:hidden block mb-2">
             <label htmlFor="menu-toggle" className="cursor-pointer">
               <SVG
                 src="../svg/menu.svg"

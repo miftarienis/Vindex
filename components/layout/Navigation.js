@@ -44,11 +44,11 @@ export default function Navigation() {
               <Image src="/img/logo.png" width={220} height={123} alt="logo" />
             </Link>
           </div>
-          <div className="col-2 md:hidden block">
+          <div className="col-2 md:hidden block mb-2">
             <label htmlFor="menu-toggle" className="cursor-pointer">
               <SVG
                 src="../svg/menu.svg"
-                className={`fill-current  ${color ? 'text-black' : 'text-black'} w-6 h-6`}
+                className={`fill-current  ${color ? 'text-black' : 'text-black'} w-4 h-4`}
                 onClick={() => setMenu(!menu)}
               />
             </label>
