@@ -19,6 +19,11 @@ export default function PricingSection() {
               desc="Men"
               duration="For One Month"
               array={['All equipments', 'Chat with trainers']}
+              gpricing="1500"
+              gtime="month"
+              gdesc="Women"
+              gduration="For One Month"
+              garray={['All equipments', 'Chat with trainers']}
             />
             <PricingCart
               pricing="4000"
@@ -26,6 +31,11 @@ export default function PricingSection() {
               desc="Men"
               duration="For Three Months"
               array={['All equipments', 'Chat with trainers']}
+              gpricing="4000"
+              gtime="months"
+              gdesc="Women"
+              gduration="For Three Months"
+              garray={['All equipments', 'Chat with trainers']}
             />
             <PricingCart
               pricing="7500"
@@ -33,6 +43,11 @@ export default function PricingSection() {
               desc="Men"
               duration="For Six Months"
               array={['All equipments', 'Chat with trainers']}
+              gpricing="7500"
+              gtime="months"
+              gdesc="Women"
+              gduration="For Six Months"
+              garray={['All equipments', 'Chat with trainers']}
             />
             <PricingCart
               pricing="3000"
@@ -40,6 +55,11 @@ export default function PricingSection() {
               desc="Diet Plan"
               duration="For One Month"
               array={['Diet Planning & Training', 'Chat with trainers']}
+              gpricing="3000"
+              gtime="month"
+              gdesc="Diet Plan"
+              gduration="For One Month"
+              garray={['Diet Planning & Training', 'Chat with trainers']}
             />
           </div>
         </div>
