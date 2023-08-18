@@ -32,7 +32,7 @@ export default function ServiceSection() {
               </div>
               <div className="lg:col-3 text-center lg:mb-16 mb-0 mt-5 md:mt-0">
                 <Link href="/#calendar">
-                  <SVG src="/svg/calendar.svg" className="w-14 h-14 fill-current mx-auto " />
+                  <SVG src="/svg/calendar.svg" className="w-14 h-14 fill-current mx-auto" />
                   <p className="lg:mt-5 uppercase text-green-500 text-center text-lg">
                     Appointments
                   </p>
