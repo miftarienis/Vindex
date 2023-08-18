@@ -15,10 +15,10 @@ export default function TeamSection() {
           <TeamCart
             img="/img/labinot-sylejmani.jpg"
             name="Labinot Soleymani"
-            title="Personal trainer"
+            title="Head Coach"
             button
           />
-          <TeamCart img="/img/kezi-idrizi.jpeg" name="Kezi Idrizi" title="staff" />
+          <TeamCart img="/img/kezi-idrizi.jpeg" name="Kezi Idrizi" title="Trainer" />
         </div>
       </div>
     </div>

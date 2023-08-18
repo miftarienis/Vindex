@@ -29,7 +29,7 @@ export default function FooterSection() {
                 href="mailto:vindex@gmail.com"
                 className="block mt-10 text-white md:text-xl text-lg font-semibold uppercase"
               >
-                vindex@gmail.com
+                vindexgym@gmail.com
               </a>
             </div>
             <div className="md:col-6 md:text-end text-start">

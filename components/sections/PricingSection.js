@@ -19,7 +19,7 @@ export default function PricingSection() {
               desc="Men"
               duration="For One Month"
               array={['All equipments', 'Chat with trainers']}
-              gpricing="1500"
+              gpricing="1200"
               gtime="month"
               gdesc="Women"
               gduration="For One Month"
@@ -31,7 +31,7 @@ export default function PricingSection() {
               desc="Men"
               duration="For Three Months"
               array={['All equipments', 'Chat with trainers']}
-              gpricing="4000"
+              gpricing="3100"
               gtime="months"
               gdesc="Women"
               gduration="For Three Months"
@@ -43,7 +43,7 @@ export default function PricingSection() {
               desc="Men"
               duration="For Six Months"
               array={['All equipments', 'Chat with trainers']}
-              gpricing="7500"
+              gpricing="5700"
               gtime="months"
               gdesc="Women"
               gduration="For Six Months"
