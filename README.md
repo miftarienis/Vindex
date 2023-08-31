@@ -1,8 +1,8 @@
-** VINDEX GYM | HOME OF CHAMPIONS
+VINDEX GYM | HOME OF CHAMPIONS
 
-** WEBSITE FOR THE UNIQUE GYM IN GOSTIVAR
+WEBSITE FOR THE UNIQUE GYM IN GOSTIVAR
 
-** Features
+Features
   * Tailwind CSS for styling
   * Purge CSS configured for production
   * NextJs as a frontend framework
