@@ -7,9 +7,5 @@ Features
   * Purge CSS configured for production
   * NextJs as a frontend framework
 
-What will you need
-  * Composer installed.
-  * NodeJS with NPM
-
 How to use it
   * npm run watch for development. npm run production for production.
