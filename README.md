@@ -11,8 +11,5 @@ What will you need
   * Composer installed.
   * NodeJS with NPM
 
-How to install
-  * Start by cloning the project then running the following commands. composer install For installing Jigsaw with its dependencies. npm install . For installing the required frontend libraries.
-
 How to use it
-  * npm run watch for development. npm run production for production. ./vendor/bin/jigsaw build for building the pages.
+  * npm run watch for development. npm run production for production.
