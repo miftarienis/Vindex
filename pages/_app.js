@@ -7,7 +7,6 @@ import { NextSeo } from 'next-seo'
 import { useEffect } from 'react'
 
 import * as gtag from '../lib/gtag'
-
 const poppins = Poppins({
   weight: ['500', '700'],
   subsets: ['latin'],
@@ -52,9 +51,15 @@ function MyApp({ Component, pageProps }) {
         openGraph={{
           type: 'website',
           locale: 'en_EN',
-          url: '',
+          url: 'https://vindexgym.mk/',
           site_name: 'Vindex Gym',
-          description: 'Home of the Champions',
+          description: 'Vindex',
+          images: [
+            {
+              url: 'https://vindexgym.mk/img/headline.jpg',
+              alt: 'OG Image',
+            },
+          ],
         }}
       />
       <div className={`${poppins.variable} font-sans`}>
