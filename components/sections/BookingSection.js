@@ -22,9 +22,7 @@ export default function BookingSection() {
               <Calendar onChange={setDate} value={date} />
             </div>
             <div className="lg:col-4 mt-5 lg:mt-0 text-center">
-              <h2 className="uppercase text-3xl font-bold text-center lg:text-start">
-                Select time
-              </h2>
+              <h2 className="uppercase text-3xl font-bold text-center">Select time</h2>
               <div className="inline-flex items-center">
                 <input
                   type="number"
